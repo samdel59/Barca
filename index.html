@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>About Barca</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="loogo.webp" alt="Barca logo"></a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="team.html">TEAM</a></li>
+                    <li><a href="trophies.html">TROPHIES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul> <br><br>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>About FC Barcelona</h1><br>
+            <p>FC Barcelona, commonly referred to as Barça, is a professional football club based in Barcelona, Catalonia, Spain. Founded in 1899 by a group of Swiss, English, and Catalan footballers led by Joan Gamper, the club has become one of the most successful and popular football teams in the world.</p>
+            <p>Barça is known for its distinctive playing style, often referred to as "tiki-taka," which emphasizes short passing and movement, maintaining possession, and working the ball through various channels. The club has a rich history of success, having won numerous domestic and international titles, including multiple La Liga championships, Copa del Rey trophies, and UEFA Champions League titles.</p>
+            <br><br> <a href="" class="hero-btn">visit us to know more</a>
+        </div>
+    </section>
+    <section>
+        
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
